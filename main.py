@@ -14,10 +14,18 @@ More info needed: How do we define the condition of being a digit? .isdigit()
 
 def contains_digits(a_string):
     for character in a_string:
-      if character == a_string.isdigits()
-      return True
-      else:
-        return False
+      if character.isdigit():
+        return True
+      return False
+    
+text_1 = contains_digits("Bye")
+text_2 = contains_digits("Hello")
+text_3 = contains_digits("ABC easy as 123")
+
+print(f"Test 1: {text_1}")
+print(f"Test 2: {text_2}")
+print(f"Test 3: {text_3}")
+  
 
 
 """
