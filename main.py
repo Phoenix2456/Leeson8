@@ -13,7 +13,11 @@ More info needed: How do we define the condition of being a digit? .isdigit()
 
 
 def contains_digits(a_string):
-    pass
+    for character in a_string:
+      if character == a_string.isdigits()
+      return True
+      else:
+        return False
 
 
 """
